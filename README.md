@@ -69,3 +69,10 @@ bin/dev
 - Add password show action
 - Extract lookup to before action
 - Add show view
+- Add edit action
+- Add edit view
+- Add update action
+- Add delete link to form
+- Add destroy action
+- Add dependent destroy to model associations for link table
+- Add password partial
