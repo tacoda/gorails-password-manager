@@ -83,3 +83,17 @@ bin/dev
 - Add to show view
 - Rename hello_controller stimulus controller to clipboard_controller
 - Implement navigator.clipboard functionality and update UI
+
+## Sharing Passwords
+
+- Add routes for shares
+
+```sh
+r routes -g shares
+```
+
+- Add link to share in password show view
+- Create shares controller
+- Add shares new view
+- Add create action
+- Add destroy action
