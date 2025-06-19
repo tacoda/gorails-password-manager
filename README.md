@@ -76,3 +76,10 @@ bin/dev
 - Add destroy action
 - Add dependent destroy to model associations for link table
 - Add password partial
+
+## Copy to Clipboard
+
+- Grab icon image from heroicons
+- Add to show view
+- Rename hello_controller stimulus controller to clipboard_controller
+- Implement navigator.clipboard functionality and update UI
