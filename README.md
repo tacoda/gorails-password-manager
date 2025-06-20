@@ -147,4 +147,5 @@ fly launch
 fly deploy
 
 fly ssh console
+bin/rails db:migrate
 ```
