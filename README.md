@@ -132,3 +132,17 @@ UserPassword.update_all(role: "owner")
 - Break out alerts to partial
 - Break out nav to partial
 - Adjust styling
+
+## Deploy to Fly
+
+```sh
+r db:encryption:init
+r credentials:edit --environment=production
+
+# If no secret key base is defined
+r secret
+r credentials:edit --environment=production
+
+fly launch
+fly deploy
+```
