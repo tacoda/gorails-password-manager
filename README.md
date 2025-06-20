@@ -145,4 +145,6 @@ r credentials:edit --environment=production
 
 fly launch
 fly deploy
+
+fly ssh console
 ```
