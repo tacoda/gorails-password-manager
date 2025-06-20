@@ -124,3 +124,11 @@ UserPassword.update_all(role: "owner")
 - Push method logic into UserPassword and refactor Password call
 - Update links in password show view to look at permissions
 - Add before action to Shares controller
+- Add conditions in views to hide links
+
+## Styling
+
+- Add nav
+- Break out alerts to partial
+- Break out nav to partial
+- Adjust styling

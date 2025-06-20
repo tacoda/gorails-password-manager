@@ -29,7 +29,7 @@
   <%= link_to "Share password", new_password_share_path(@password) if @user_password.shareable? %>
 </div>
 
-<div class="flex flex-col gap-1 divide-y divide-gray-100">
+<div class="flex flex-col gap-1 divide-y divide-gray-300">
   <% @password.user_passwords.includes(:user).each do |user_password| %>
     <div class="grid grid-cols-3">
       <div>
