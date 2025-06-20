@@ -97,3 +97,30 @@ r routes -g shares
 - Add shares new view
 - Add create action
 - Add destroy action
+
+## Roles and Permissions
+
+- Add migration
+
+```sh
+r g migration AddRoleToUserPasswords role
+r db:migrate
+r c
+```
+
+```ruby
+UserPassword.update_all(role: "owner")
+```
+
+- Add validation to UserPassword model
+- Update Password controller to use role
+- Update Shares controller to user role
+- Update shares new view to include the role
+- Add role to permitted parameters
+- Add role on the password show view
+- Add methods to UserPassword model
+- Add before action to Password controller
+- Add methods to Password model
+- Push method logic into UserPassword and refactor Password call
+- Update links in password show view to look at permissions
+- Add before action to Shares controller
