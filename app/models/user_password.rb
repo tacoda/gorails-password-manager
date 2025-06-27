@@ -1,5 +1,5 @@
 class UserPassword < ApplicationRecord
-  ROLES = %w{viewer editor owner}
+  ROLES = %w[viewer editor owner]
 
   belongs_to :user
   belongs_to :password

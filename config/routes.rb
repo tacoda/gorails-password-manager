@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
   resources :passwords do
-    resources :shares, only: [:new, :create, :destroy]
+    resources :shares, only: [ :new, :create, :destroy ]
   end
 
   # Defines the root path route ("/")
